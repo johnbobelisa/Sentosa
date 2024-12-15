@@ -1,19 +1,23 @@
 /* Navbar container */
 .navbar {
     background-color: white;
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    margin: 0 auto;
     top: 0;
+    border: none;
+    padding-left: 15%;
+    padding-right: 5%;
+    height: 44px;
   }
   
   /* Align items on left and right sections */
   .navbar-left,
   .navbar-right {
     display: flex;
+    align-items: center;
   }
   
   /* Add some spacing between items */
@@ -21,13 +25,14 @@
   .navbar-right > div {
     margin: 0 1rem;
   }
-  
+
   /* Style links in navbar */
   .navbar-left a,
   .navbar-right a {
     color: black; /* Changed comma to semicolon */
     text-decoration: none;
-    padding-right: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
   }
   
   /* Dropdown styles */
@@ -62,3 +67,9 @@
     background-color: #f0f0f0;
   }
   
+  .navbar-logo {
+    max-width: 224px;
+    max-height: 40px;
+    padding-right: 0px;
+    padding-top: 7px;
+  }

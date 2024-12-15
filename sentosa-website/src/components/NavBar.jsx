@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./NavBar.css"; 
+import SeppLogo from "../assets/sepp-logo.png"
 
 const NavBar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -7,9 +8,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <div className="navbar-logo">
-          <a href="#Logo">Logo</a>
-        </div>
+        <a href="/"><img src={SeppLogo} alt="Logo" className="navbar-logo" /></a>
 
         <div
           className="navbar-company"
@@ -33,7 +32,7 @@ const NavBar = () => {
 
       <div className="navbar-right">
         <div className="navbar-contact">
-          <a href="#Contact">Contact</a>
+          <a href="/contacts">Contact</a>
         </div>
         <div className="navbar-search">
           <a href="#Search">Search</a>

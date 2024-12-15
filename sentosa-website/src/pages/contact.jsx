@@ -1,16 +1,16 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 
-const Services = () => {
+const Contacts = () => {
   return (
     <body>
     <NavBar />
       <div>
-        <h1>Services Page</h1>
-        <p>Welcome to the Services page!</p>
+        <h1>Contacts Page</h1>
+        <p>Welcome to the Contacts page!</p>
       </div>
     </body>
   );
 };
 
-export default Services;
+export default Contacts;
