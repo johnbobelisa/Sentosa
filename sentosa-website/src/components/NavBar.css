@@ -1,0 +1,64 @@
+/* Navbar container */
+.navbar {
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  /* Align items on left and right sections */
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+  }
+  
+  /* Add some spacing between items */
+  .navbar-left > div,
+  .navbar-right > div {
+    margin: 0 1rem;
+  }
+  
+  /* Style links in navbar */
+  .navbar-left a,
+  .navbar-right a {
+    color: black; /* Changed comma to semicolon */
+    text-decoration: none;
+    padding-right: 1rem;
+  }
+  
+  /* Dropdown styles */
+  .navbar-company {
+    position: relative;
+  }
+  
+  .dropdown-item-company {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .dropdown-item-company li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-item-company li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown-item-company li a:hover {
+    background-color: #f0f0f0;
+  }
+  

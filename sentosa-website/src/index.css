@@ -1,0 +1,66 @@
+/* A basic CSS reset */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article, aside, figure, figcaption, footer,
+header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* Box-sizing for consistency */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Global base styles */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  line-height: 1.5;
+  /* Add padding-top to ensure content doesn't go under a fixed navbar */
+  padding-top: 70px;
+  overflow-x: hidden;
+}
+
+/* Links */
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* If you have a fixed navbar, place its styles here for a refined feel */
+.navbar {
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ccc; /* Subtle line for definition */
+  display: flex;
+  justify-content: flex-start; /* Links start from left */
+  align-items: center;
+  z-index: 9999;
+  font-weight: 400;
+}
+
+/* Navbar links (assuming NavBar includes links) */
+.navbar a {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
