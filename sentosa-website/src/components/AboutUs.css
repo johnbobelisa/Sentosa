@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../fonts/Bebas-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .about-us-outer-container {
   position: relative;
   width: 100%;
@@ -9,7 +17,7 @@
 /* Header Bar - fixed at top of the about-us section */
 .about-us-header-bar {
   position: relative;
-  padding-left: 18%;
+  padding-left: 22%;
   padding-top: 2rem;
   display: flex;
   align-items: center;
@@ -18,7 +26,7 @@
 }
 
 .about-us-header-bar h1 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin: 0;
 }
 
@@ -42,31 +50,33 @@
   opacity: 1;
 }
 
-/* Horizontal scroll container */
 .about-us-horizontal-scroll {
-  display: inline-block;
-  width: 100%;
   overflow-x: scroll;
   white-space: nowrap;
   scroll-behavior: smooth;
-  box-sizing: border-box;
-  /* The header, arrows, and about us title are above this, so this can start below them */
-  padding-top: 1rem;
+  /* Hide scrollbar in Firefox */
+  scrollbar-width: none;
 }
 
-/* About us text block with padding-left:18% for the first item */
+/* Hide scrollbar in Chrome/Safari/Edge */
+.about-us-horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* About us text block with padding-left:22% for the first item */
 .about-us-content-block {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  padding-left: 18%;
+  padding-left: 22%;
   padding-right: 2rem; /* add some space before cards start */
-  min-width: 500px;
   white-space: normal; /* allow normal wrapping of text inside this block */
+  max-width: 50%;
 }
 
 .about-us-content-block p {
-  font-size: 1rem;
+  font-size: 1.27rem;
   line-height: 1.6;
 }
 
@@ -74,12 +84,14 @@
 .about-us-card {
   display: inline-block;
   vertical-align: top;
-  width: 300px;
+  width: 386px;
+  height: 520px;
   background: #fff;
   border: 1px solid #ddd;
   margin-right: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   box-sizing: border-box;
+  
 }
 
 .about-us-card-image {
@@ -126,7 +138,9 @@
 
 /* Progress bar at bottom */
 .about-us-progress-bar-container {
-  width: 100%;
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 25px;
   height: 5px;
   background: #ccc;
   position: relative;

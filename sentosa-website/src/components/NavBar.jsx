@@ -1,41 +1,40 @@
-import React, { useState } from "react";
-import "./NavBar.css"; 
-import SeppLogo from "../assets/sepp-logo.png"
+import React from "react";
+import "./NavBar.css";
+import SeppLogo from "../assets/sepp-logo.png";
 
 const NavBar = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   return (
     <nav className="navbar">
       <div className="navbar-left">
         <a href="/"><img src={SeppLogo} alt="Logo" className="navbar-logo" /></a>
 
-        <div
-          className="navbar-company"
-          onMouseEnter={() => setIsDropdownOpen(true)}
-          onMouseLeave={() => setIsDropdownOpen(false)}
-        >
-          <a href="#Company">Company</a>
-          {isDropdownOpen && (
-            <ul className="dropdown-item-company">
-              <li><a href="/products">Products</a></li>
-              <li><a href="/industries">Industries</a></li>
-              <li><a href="/services">Services</a></li>
-            </ul>
-          )}
+        {/* Directly show 'Products' and 'Industries' without a dropdown */}
+        <div className="navbar-AboutUs">
+          <a href="#about-us">About Us</a>
         </div>
 
-        <div className="navbar-aboutus">
-          <a href="#AboutUs">About Us</a>
+        <div className="navbar-services">
+          <a href="#Services">Services</a>
         </div>
+
+        <div className="navbar-products">
+          <a href="#Products">Products</a>
+        </div>
+
+        <div className="navbar-collaborations">
+          <a href="#Collaborations">Collaborations</a>
+        </div>
+
+        
       </div>
 
       <div className="navbar-right">
-        <div className="navbar-contact">
-          <a href="/contacts">Contact</a>
+        <div className="navbar-aboutus">
+          <a href="https://drive.google.com/file/d/1gqUm6Uk5UwCNokJdCHvo7uXDfl_TZu6i/view?usp=sharing">Company Profile (.pdf)</a>
         </div>
-        <div className="navbar-search">
-          <a href="#Search">Search</a>
+      
+        <div className="navbar-contact">
+          <a href="#Contact">Contact</a>
         </div>
       </div>
     </nav>

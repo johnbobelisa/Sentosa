@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import "./AboutUs.css";
+import "./Services.css";
 import textContent from "../textContent.json"
 
 // Example cards data
@@ -50,7 +50,7 @@ const cards = [
 
 const SCROLL_AMOUNT = 300; // pixels to scroll each arrow click (adjust as needed)
 
-const AboutUs = () => {
+const Services = () => {
   const containerRef = useRef(null);
   const [progress, setProgress] = useState(0);
 
@@ -85,19 +85,19 @@ const AboutUs = () => {
   };
 
   return (
-    <div id="about-us" className="about-us-outer-container">
+    <div id="Services" className="Services-outer-container">
       {/* Fixed/absolute positioned header and arrows at top */}
-      <div className="about-us-header-bar">
-        <h1>About Us</h1>
-        <div className="about-us-arrows">
+      <div className="Services-header-bar">
+        <h1>Services</h1>
+        <div className="Services-arrows">
           <button className="arrow-button left" onClick={handlePrev}>❮</button>
           <button className="arrow-button right" onClick={handleNext}>❯</button>
         </div>
       </div>
 
-      <div className="about-us-horizontal-scroll" ref={containerRef}>
+      <div className="Services-horizontal-scroll" ref={containerRef}>
         {/* About Us text block with padding-left:18% */}
-        <div className="about-us-content-block">
+        <div className="Services-content-block">
           <p>
             {textContent.aboutUsPrimaryText}
           </p>
@@ -105,18 +105,18 @@ const AboutUs = () => {
 
         {/* Cards follow continuously */}
         {cards.map((card, index) => (
-          <div className="about-us-card" key={index}>
-            <div className="about-us-card-image">
+          <div className="Services-card" key={index}>
+            <div className="Services-card-image">
               <img src={card.imgSrc} alt={card.imgAlt} />
             </div>
-            <div className="about-us-card-text">
-              <div className="about-us-card-category">
+            <div className="Services-card-text">
+              <div className="Services-card-category">
                 {card.category}
               </div>
-              <h3 className="about-us-card-title">
+              <h3 className="Services-card-title">
                 {card.title}
               </h3>
-              <p className="about-us-card-description">
+              <p className="Services-card-description">
                 {card.description}
               </p>
             </div>
@@ -124,10 +124,10 @@ const AboutUs = () => {
         ))}
       </div>
 
-      <div className="about-us-progress-bar-container">
-        <div className="about-us-progress-bar-bg">
+      <div className="Services-progress-bar-container">
+        <div className="Services-progress-bar-bg">
           <div
-            className="about-us-progress-bar-fill"
+            className="Services-progress-bar-fill"
             style={{ width: `${progress * 100}%` }}
           ></div>
         </div>
@@ -136,4 +136,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Services;

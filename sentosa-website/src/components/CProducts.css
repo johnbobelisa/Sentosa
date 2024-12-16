@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Bebas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  .CProducts-outer-container {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+  
+  /* Header Bar - fixed at top of the CProducts section */
+  .CProducts-header-bar {
+    position: relative;
+    padding-left: 22%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .CProducts-header-bar h1 {
+    font-size: 2.3rem;
+    margin: 0;
+  }
+  
+  .CProducts-arrows {
+    display: flex;
+    gap: 10px;
+    margin-right: 2rem; /* add some spacing on the right if needed */
+  }
+  
+  .arrow-button {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    opacity: 0.8;
+  }
+  
+  .arrow-button:hover {
+    opacity: 1;
+  }
+  
+  .CProducts-horizontal-scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    /* Hide scrollbar in Firefox */
+    scrollbar-width: none;
+  }
+  
+  /* Hide scrollbar in Chrome/Safari/Edge */
+  .CProducts-horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  /* About us text block with padding-left:22% for the first item */
+  .CProducts-content-block {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 22%;
+    padding-right: 2rem; /* add some space before cards start */
+    white-space: normal; /* allow normal wrapping of text inside this block */
+    max-width: 50%;
+  }
+  
+  .CProducts-content-block p {
+    font-size: 1.27rem;
+    line-height: 1.6;
+  }
+  
+  /* Cards - inline-block so they appear in a horizontal row */
+  .CProducts-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 386px;
+    height: 520px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    
+  }
+  
+  .CProducts-card-image {
+    width: 100%;
+    height: 200px;
+    background: #f0f0f0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .CProducts-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .CProducts-card-text {
+    padding: 1rem;
+    box-sizing: border-box;
+    white-space: normal;
+  }
+  
+  .CProducts-card-category {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .CProducts-card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .CProducts-card-description {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #333;
+  }
+  
+  /* Progress bar at bottom */
+  .CProducts-progress-bar-container {
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 25px;
+    height: 5px;
+    background: #ccc;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .CProducts-progress-bar-bg {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .CProducts-progress-bar-fill {
+    height: 5px;
+    background: #76b900;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  

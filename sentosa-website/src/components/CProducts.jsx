@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import "./AboutUs.css";
+import "./CProducts.css";
 import textContent from "../textContent.json"
 
 // Example cards data
@@ -50,7 +50,7 @@ const cards = [
 
 const SCROLL_AMOUNT = 300; // pixels to scroll each arrow click (adjust as needed)
 
-const AboutUs = () => {
+const CProducts = () => {
   const containerRef = useRef(null);
   const [progress, setProgress] = useState(0);
 
@@ -85,19 +85,19 @@ const AboutUs = () => {
   };
 
   return (
-    <div id="about-us" className="about-us-outer-container">
+    <div id="Products" className="CProducts-outer-container">
       {/* Fixed/absolute positioned header and arrows at top */}
-      <div className="about-us-header-bar">
-        <h1>About Us</h1>
-        <div className="about-us-arrows">
+      <div className="CProducts-header-bar">
+        <h1>Products</h1>
+        <div className="CProducts-arrows">
           <button className="arrow-button left" onClick={handlePrev}>❮</button>
           <button className="arrow-button right" onClick={handleNext}>❯</button>
         </div>
       </div>
 
-      <div className="about-us-horizontal-scroll" ref={containerRef}>
+      <div className="CProducts-horizontal-scroll" ref={containerRef}>
         {/* About Us text block with padding-left:18% */}
-        <div className="about-us-content-block">
+        <div className="CProducts-content-block">
           <p>
             {textContent.aboutUsPrimaryText}
           </p>
@@ -105,18 +105,18 @@ const AboutUs = () => {
 
         {/* Cards follow continuously */}
         {cards.map((card, index) => (
-          <div className="about-us-card" key={index}>
-            <div className="about-us-card-image">
+          <div className="CProducts-card" key={index}>
+            <div className="CProducts-card-image">
               <img src={card.imgSrc} alt={card.imgAlt} />
             </div>
-            <div className="about-us-card-text">
-              <div className="about-us-card-category">
+            <div className="CProducts-card-text">
+              <div className="CProducts-card-category">
                 {card.category}
               </div>
-              <h3 className="about-us-card-title">
+              <h3 className="CProducts-card-title">
                 {card.title}
               </h3>
-              <p className="about-us-card-description">
+              <p className="CProducts-card-description">
                 {card.description}
               </p>
             </div>
@@ -124,10 +124,10 @@ const AboutUs = () => {
         ))}
       </div>
 
-      <div className="about-us-progress-bar-container">
-        <div className="about-us-progress-bar-bg">
+      <div className="CProducts-progress-bar-container">
+        <div className="CProducts-progress-bar-bg">
           <div
-            className="about-us-progress-bar-fill"
+            className="CProducts-progress-bar-fill"
             style={{ width: `${progress * 100}%` }}
           ></div>
         </div>
@@ -136,4 +136,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default CProducts;
