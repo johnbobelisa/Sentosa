@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <a href="/"><img src={SeppLogo} alt="Logo" className="navbar-logo" /></a>
+        <a href="/Sentosa/"><img src={SeppLogo} alt="Logo" className="navbar-logo" /></a>
 
         {/* Directly show 'Products' and 'Industries' without a dropdown */}
         <div className="navbar-AboutUs">

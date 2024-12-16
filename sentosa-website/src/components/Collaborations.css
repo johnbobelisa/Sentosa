@@ -34,6 +34,7 @@
     display: flex;
     gap: 10px;
     margin-right: 2rem; /* add some spacing on the right if needed */
+    margin-bottom: 20px;
   }
   
   .arrow-button {
