@@ -17,7 +17,7 @@
 /* Header Bar - fixed at top of the about-us section */
 .about-us-header-bar {
   position: relative;
-  padding-left: 22%;
+  padding-left: 18%;
   padding-top: 2rem;
   display: flex;
   align-items: center;
@@ -66,12 +66,12 @@
 }
 
 
-/* About us text block with padding-left:22% for the first item */
+/* About us text block with padding-left:18% for the first item */
 .about-us-content-block {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  padding-left: 22%;
+  padding-left: 18%;
   padding-right: 2rem; /* add some space before cards start */
   white-space: normal; /* allow normal wrapping of text inside this block */
   max-width: 50%;
@@ -141,9 +141,9 @@
 /* Progress bar at bottom */
 .about-us-progress-bar-container {
   width: 50%;
-  margin-left: 22%;
+  margin-left: 18%;
   margin-top: 25px;
-  height: 5px;
+  height: 8px;
   background: #ccc;
   position: relative;
   box-sizing: border-box;

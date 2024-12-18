@@ -17,7 +17,7 @@
 /* Header Bar - fixed at top of the Services section */
 .Services-header-bar {
   position: relative;
-  padding-left: 22%;
+  padding-left: 18%;
   padding-top: 2rem;
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  padding-left: 22%;
+  padding-left: 18%;
   padding-right: 2rem; /* add some space before cards start */
   white-space: normal; /* allow normal wrapping of text inside this block */
   max-width: 50%;
@@ -140,7 +140,7 @@
 /* Progress bar at bottom */
 .Services-progress-bar-container {
   width: 50%;
-  margin-left: 22%;
+  margin-left: 18%;
   margin-top: 25px;
   height: 5px;
   background: #ccc;

@@ -7,45 +7,45 @@ const cards = [
   {
     imgSrc: "image1.jpg",
     imgAlt: "Image 1",
-    category: "SIMULATION | ANNOUNCEMENT",
-    title: "The Coca-Cola Company and WPP Build Generative AI Content Engine",
-    description: "World marketing leader WPP is enabling the beverage giant to accelerate iteration on creative campaigns at a global scale..."
+    title: "SEPP Amine Ungu",
+    description: "MDEA-based amine product designed for CO₂ and H₂S removal, with low energy requirements, reduced CAPEX, and operational efficiency."
   },
   {
     imgSrc: "image2.jpg",
     imgAlt: "Image 2",
-    category: "ENTERPRISE | NEWS",
-    title: "Accelerating AI Innovations in the Cloud",
-    description: "Discover how leading enterprises are leveraging our platform to transform their digital workflows..."
+    title: "SEPP Amine Putih",
+    description: "Used for selective removal of impurities like H₂S and CO₂ in natural gas streams, ensuring gas purity."
   },
   {
     imgSrc: "image3.jpg",
     imgAlt: "Image 3",
-    category: "HEALTHCARE | RESEARCH",
-    title: "Revolutionizing Drug Discovery with Digital Twins",
-    description: "AI-powered simulations are drastically cutting down research times and enabling new therapies."
+    title: "SEPPBRINE Viscosifiers",
+    description: "High-yield viscosifiers compatible with fresh water, KCl, and CaCl₂, providing reservoir-friendly solutions for workover and drilling fluids."
   },
   {
     imgSrc: "image4.jpg",
     imgAlt: "Image 4",
-    category: "MANUFACTURING | BLOG",
-    title: "Building Smart Factories With AI at the Edge",
-    description: "Learn how AI is enabling predictive maintenance, quality assurance, and efficient production lines."
+    title: "Lost Circulation Materials (LCM)",
+    description: "Products like SEPSEAL and Nut Plug are designed to stop fluid invasion and stabilize formations during drilling."
   },
   {
     imgSrc: "image5.jpg",
     imgAlt: "Image 5",
-    category: "AUTOMOTIVE | SPOTLIGHT",
-    title: "Autonomous Vehicles: The Road Ahead",
-    description: "Explore the latest breakthroughs in self-driving technology and how they're shaping the future of mobility."
+    title: "Corrosion Inhibitors",
+    description: "SEPP provides various corrosion inhibitors, including products like CORR SEPP 0333, for brine systems and drilling fluids."
   },
   {
     imgSrc: "image6.jpg",
     imgAlt: "Image 6",
-    category: "ARTIFICIAL INTELLIGENCE | BLOG",
-    title: "Sustainable Strides: AI and Accelerated Computing Drive Energy Efficiency",
-    description: "Learn how companies are on the way to sustainable AI with NVIDIA technologies."
-  }
+    title: "Biocides and Oxygen Scavengers",
+    description: "SEPP offers solutions such as BioSEPP and SEPP OS to inhibit bacterial growth and remove oxygen from drilling muds."
+  },
+  {
+    imgSrc: "image7.jpg",
+    imgAlt: "Image 7",
+    title: "Defoamers and Additives",
+    description: "SEPP provides defoamers (e.g., SEPP Foam, Aluminum Stearate) and other drilling additives to improve operational performance."
+  },
 ];
 
 const SCROLL_AMOUNT = 300; // pixels to scroll each arrow click (adjust as needed)
@@ -99,7 +99,7 @@ const CProducts = () => {
         {/* About Us text block with padding-left:18% */}
         <div className="CProducts-content-block">
           <p>
-            {textContent.aboutUsPrimaryText}
+          SEPP’s portfolio includes over 100 specialty chemical products designed for diverse applications in oil and gas drilling, production, and refining.
           </p>
         </div>
 

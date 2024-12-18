@@ -30,11 +30,15 @@ const NavBar = () => {
 
       <div className="navbar-right">
         <div className="navbar-aboutus">
-          <a href="https://drive.google.com/file/d/1gqUm6Uk5UwCNokJdCHvo7uXDfl_TZu6i/view?usp=sharing">Company Profile (.pdf)</a>
+          <a href="https://drive.google.com/file/d/1iosqRFxUcl4DcX54ehMwd53pmOLLNB7P/view?usp=sharing">Company Profile (.pdf)</a>
         </div>
       
         <div className="navbar-contact">
           <a href="#Contact">Contact</a>
+        </div>
+
+        <div className="Language">
+          <a>English</a>
         </div>
       </div>
     </nav>

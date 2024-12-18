@@ -2,48 +2,42 @@ import React, { useRef, useState, useEffect } from "react";
 import "./Collaborations.css";
 import textContent from "../textContent.json"
 
-// Example cards data
+
 const cards = [
   {
     imgSrc: "image1.jpg",
     imgAlt: "Image 1",
-    category: "SIMULATION | ANNOUNCEMENT",
-    title: "The Coca-Cola Company and WPP Build Generative AI Content Engine",
+    title: "BP",
     description: "World marketing leader WPP is enabling the beverage giant to accelerate iteration on creative campaigns at a global scale..."
   },
   {
     imgSrc: "image2.jpg",
     imgAlt: "Image 2",
-    category: "ENTERPRISE | NEWS",
-    title: "Accelerating AI Innovations in the Cloud",
+    title: "PERTAMINA EP",
     description: "Discover how leading enterprises are leveraging our platform to transform their digital workflows..."
   },
   {
     imgSrc: "image3.jpg",
     imgAlt: "Image 3",
-    category: "HEALTHCARE | RESEARCH",
-    title: "Revolutionizing Drug Discovery with Digital Twins",
+    title: "PERTAMINA",
     description: "AI-powered simulations are drastically cutting down research times and enabling new therapies."
   },
   {
     imgSrc: "image4.jpg",
     imgAlt: "Image 4",
-    category: "MANUFACTURING | BLOG",
-    title: "Building Smart Factories With AI at the Edge",
+    title: "MEDCOENERGI",
     description: "Learn how AI is enabling predictive maintenance, quality assurance, and efficient production lines."
   },
   {
     imgSrc: "image5.jpg",
     imgAlt: "Image 5",
-    category: "AUTOMOTIVE | SPOTLIGHT",
-    title: "Autonomous Vehicles: The Road Ahead",
+    title: "CHIYODA CORPORATION",
     description: "Explore the latest breakthroughs in self-driving technology and how they're shaping the future of mobility."
   },
   {
     imgSrc: "image6.jpg",
     imgAlt: "Image 6",
-    category: "ARTIFICIAL INTELLIGENCE | BLOG",
-    title: "Sustainable Strides: AI and Accelerated Computing Drive Energy Efficiency",
+    title: "CSTS",
     description: "Learn how companies are on the way to sustainable AI with NVIDIA technologies."
   }
 ];
@@ -99,7 +93,7 @@ const Collaborations = () => {
         {/* About Us text block with padding-left:18% */}
         <div className="collaborations-content-block">
           <p>
-            {textContent.aboutUsPrimaryText}
+          SEPP actively collaborates with industries in LNG applications, carbon capture, and gas treatment sectors to provide innovative and sustainable solutions. Through partnerships with LNG plants and emerging energy sectors, SEPP focuses on removing impurities like CO₂ and H₂S efficiently while optimizing gas production quality.
           </p>
         </div>
 

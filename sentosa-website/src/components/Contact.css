@@ -1,39 +1,42 @@
 .contact-container {
     width: 100%;
-    background: #000; /* Black background */
-    color: #fff;       /* White text */
+    background: #000; 
+    color: #fff;      
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 1rem; /* Spacing around the content */
+    padding: 2.5rem 1rem; 
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     text-align: center;
+    line-height: 1.5; 
 }
 
 .contact-container h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-size: 1.8rem; 
+    margin-bottom: 1.5rem; 
+    font-weight: 400; 
+    letter-spacing: 0.5px; 
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    max-width: 600px; /* Keeps text nicely contained at larger screen sizes */
+    gap: 1.5rem; 
+    max-width: 600px;
     width: 100%;
 }
 
 .contact-block h3 {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    font-size: 1.2rem; 
+    margin-bottom: 0.25rem;
+    font-weight: 400; 
+    color: #ccc; 
 }
 
 .contact-block p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 0.5rem 0;
+    font-size: 0.95rem; 
+    line-height: 1.5; 
+    margin: 0.25rem 0;
+    color: #ddd; 
 }

@@ -1,25 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./HomeContainer.css";
-import picture1 from "../assets/picture1.jpg"
-import picture2 from "../assets/picture2.jpg"
-import picture3 from "../assets/picture3.jpg"
+import picture1 from "../assets/sepp_1.jpg"
+import picture2 from "../assets/sepp_2.jpg"
 
 const slides = [
   {
     image: picture1,
-    title: "Slide 1 Title",
-    description: "This is the first slide."
+
   },
   {
     image: picture2,
-    title: "Slide 2 Title",
-    description: "This is the second slide."
+
   },
-  {
-    image: picture3,
-    title: "Slide 3 Title",
-    description: "This is the third slide."
-  }
 ];
 
 const SLIDE_INTERVAL = 5000; // 5 seconds

@@ -2,49 +2,50 @@ import React, { useRef, useState, useEffect } from "react";
 import "./AboutUs.css";
 import textContent from "../textContent.json"
 
+import pic1 from "../assets/assets_aboutus/aboutus1.jpg"
+import pic2 from "../assets/assets_aboutus/aboutus2.jpg"
+import pic3 from "../assets/assets_aboutus/aboutus3.jpg"
+import pic4 from "../assets/assets_aboutus/aboutus4.jpg"
+import pic5 from "../assets/assets_aboutus/aboutus5.jpg"
+import pic6 from "../assets/assets_aboutus/aboutus6.jpg"
+
+
 // Example cards data
 const cards = [
   {
-    imgSrc: "image1.jpg",
-    imgAlt: "Image 1",
-    category: "SIMULATION | ANNOUNCEMENT",
-    title: "The Coca-Cola Company and WPP Build Generative AI Content Engine",
-    description: "World marketing leader WPP is enabling the beverage giant to accelerate iteration on creative campaigns at a global scale..."
+    imgSrc: pic1,
+    title: "Company Overview",
+    description: "PT. Sentosa Eka Perdana Prima (SEPP) – A chemical company with a broad product portfolio (amines, diols, polyalcohols, acids) serving oil, gas, and various industrial sectors."
   },
   {
-    imgSrc: "image2.jpg",
-    imgAlt: "Image 2",
-    category: "ENTERPRISE | NEWS",
-    title: "Accelerating AI Innovations in the Cloud",
-    description: "Discover how leading enterprises are leveraging our platform to transform their digital workflows..."
-  },
-  {
-    imgSrc: "image3.jpg",
-    imgAlt: "Image 3",
-    category: "HEALTHCARE | RESEARCH",
-    title: "Revolutionizing Drug Discovery with Digital Twins",
-    description: "AI-powered simulations are drastically cutting down research times and enabling new therapies."
-  },
-  {
-    imgSrc: "image4.jpg",
-    imgAlt: "Image 4",
-    category: "MANUFACTURING | BLOG",
-    title: "Building Smart Factories With AI at the Edge",
-    description: "Learn how AI is enabling predictive maintenance, quality assurance, and efficient production lines."
-  },
-  {
-    imgSrc: "image5.jpg",
+    imgSrc: pic6,
     imgAlt: "Image 5",
-    category: "AUTOMOTIVE | SPOTLIGHT",
-    title: "Autonomous Vehicles: The Road Ahead",
-    description: "Explore the latest breakthroughs in self-driving technology and how they're shaping the future of mobility."
+    title: "Distribution and Manufacturing",
+    description: "We produce and market over 100 types of chemical products, while also providing consultation services and problem-solving solutions to help improve customer efficiency."
   },
   {
-    imgSrc: "image6.jpg",
+    imgSrc: pic3,
+    imgAlt: "Image 3",
+    title: "Storage Location",
+    description: "SEPP ensures reliable and consistent product supply, with warehouses in Cikarang and Surabaya for efficient storage and distribution."
+  },
+  {
+    imgSrc: pic4,
+    imgAlt: "Image 4",
+    title: "Formulations & Solvents",
+    description: "SEPP provides high-quality chemical products for gas treatment applications, focusing on corrosion prevention, leakage management, waste disposal, and aspects of Health, Safety, and Environment (EHS)."
+  },
+  {
+    imgSrc: pic2,
+    imgAlt: "Image 2",
+    title: "High Operational Standards",
+    description: "SEPP takes full responsibility for its products, improving quality, comfort, and efficiency while maintaining sustainability."
+  },
+  {
+    imgSrc: pic5,
     imgAlt: "Image 6",
-    category: "ARTIFICIAL INTELLIGENCE | BLOG",
-    title: "Sustainable Strides: AI and Accelerated Computing Drive Energy Efficiency",
-    description: "Learn how companies are on the way to sustainable AI with NVIDIA technologies."
+    title: "Natural Gas & LNG",
+    description: "SEPP Amine products are used for CO₂ and H₂S purification applications in natural gas and LNG, as well as other gas compositions."
   }
 ];
 

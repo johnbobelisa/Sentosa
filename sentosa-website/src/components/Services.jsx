@@ -8,44 +8,37 @@ const cards = [
     imgSrc: "image1.jpg",
     imgAlt: "Image 1",
     category: "SIMULATION | ANNOUNCEMENT",
-    title: "The Coca-Cola Company and WPP Build Generative AI Content Engine",
-    description: "World marketing leader WPP is enabling the beverage giant to accelerate iteration on creative campaigns at a global scale..."
+    title: "Gas Treatment",
+    description: "SEPP provides high-performance gas treatment solutions used in gas sales and LNG applications, including emerging sectors like carbon capture, biogas, and floating LNG."
   },
   {
     imgSrc: "image2.jpg",
     imgAlt: "Image 2",
     category: "ENTERPRISE | NEWS",
-    title: "Accelerating AI Innovations in the Cloud",
-    description: "Discover how leading enterprises are leveraging our platform to transform their digital workflows..."
+    title: "Consultancy Services",
+    description: "SEPP offers consultation services for problem-solving, increasing efficiency, and providing tailored solutions for client requirements."
   },
   {
     imgSrc: "image3.jpg",
     imgAlt: "Image 3",
     category: "HEALTHCARE | RESEARCH",
-    title: "Revolutionizing Drug Discovery with Digital Twins",
-    description: "AI-powered simulations are drastically cutting down research times and enabling new therapies."
+    title: "Logistics & Distribution",
+    description: "SEPP ensures reliable and consistent product supply, with warehouses in Cikarang and Surabaya for efficient storage and distribution."
   },
   {
     imgSrc: "image4.jpg",
     imgAlt: "Image 4",
     category: "MANUFACTURING | BLOG",
-    title: "Building Smart Factories With AI at the Edge",
-    description: "Learn how AI is enabling predictive maintenance, quality assurance, and efficient production lines."
+    title: "Environmental Solutions",
+    description: "SEPP specializes in handling waste management, environmental safety, and corrosion control for oil and gas industries."
   },
   {
     imgSrc: "image5.jpg",
     imgAlt: "Image 5",
     category: "AUTOMOTIVE | SPOTLIGHT",
-    title: "Autonomous Vehicles: The Road Ahead",
-    description: "Explore the latest breakthroughs in self-driving technology and how they're shaping the future of mobility."
+    title: "Operational Expertise",
+    description: "SEPP has completed over 10 gas treatment projects successfully across Indonesia with high standards and operational efficiency."
   },
-  {
-    imgSrc: "image6.jpg",
-    imgAlt: "Image 6",
-    category: "ARTIFICIAL INTELLIGENCE | BLOG",
-    title: "Sustainable Strides: AI and Accelerated Computing Drive Energy Efficiency",
-    description: "Learn how companies are on the way to sustainable AI with NVIDIA technologies."
-  }
 ];
 
 const SCROLL_AMOUNT = 300; // pixels to scroll each arrow click (adjust as needed)
@@ -99,7 +92,7 @@ const Services = () => {
         {/* About Us text block with padding-left:18% */}
         <div className="Services-content-block">
           <p>
-            {textContent.aboutUsPrimaryText}
+          PT. Sentosa Eka Perdana Prima (SEPP) offers a wide range of technical services tailored for industries like oil and gas, petrochemicals, and energy
           </p>
         </div>
 
