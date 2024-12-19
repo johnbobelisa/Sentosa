@@ -2,40 +2,42 @@ import React, { useRef, useState, useEffect } from "react";
 import "./Services.css";
 import textContent from "../textContent.json"
 
+import picture1 from "../assets/assets_services/picture1.jpg"
+import picture2 from "../assets/assets_services/picture2.jpg"
+import picture3 from "../assets/assets_services/picture3.jpg"
+import picture4 from "../assets/assets_services/picture4.jpg"
+import picture5 from "../assets/assets_services/picture5.jpg"
+
+
 // Example cards data
 const cards = [
   {
-    imgSrc: "image1.jpg",
+    imgSrc: picture1,
     imgAlt: "Image 1",
-    category: "SIMULATION | ANNOUNCEMENT",
     title: "Gas Treatment",
     description: "SEPP provides high-performance gas treatment solutions used in gas sales and LNG applications, including emerging sectors like carbon capture, biogas, and floating LNG."
   },
   {
-    imgSrc: "image2.jpg",
+    imgSrc: picture2,
     imgAlt: "Image 2",
-    category: "ENTERPRISE | NEWS",
     title: "Consultancy Services",
     description: "SEPP offers consultation services for problem-solving, increasing efficiency, and providing tailored solutions for client requirements."
   },
   {
-    imgSrc: "image3.jpg",
+    imgSrc: picture3,
     imgAlt: "Image 3",
-    category: "HEALTHCARE | RESEARCH",
     title: "Logistics & Distribution",
     description: "SEPP ensures reliable and consistent product supply, with warehouses in Cikarang and Surabaya for efficient storage and distribution."
   },
   {
-    imgSrc: "image4.jpg",
+    imgSrc: picture4,
     imgAlt: "Image 4",
-    category: "MANUFACTURING | BLOG",
     title: "Environmental Solutions",
     description: "SEPP specializes in handling waste management, environmental safety, and corrosion control for oil and gas industries."
   },
   {
-    imgSrc: "image5.jpg",
+    imgSrc: picture5,
     imgAlt: "Image 5",
-    category: "AUTOMOTIVE | SPOTLIGHT",
     title: "Operational Expertise",
     description: "SEPP has completed over 10 gas treatment projects successfully across Indonesia with high standards and operational efficiency."
   },

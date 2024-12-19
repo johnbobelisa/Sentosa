@@ -2,43 +2,51 @@ import React, { useRef, useState, useEffect } from "react";
 import "./Collaborations.css";
 import textContent from "../textContent.json"
 
+import csts from "../assets/assets_collaborations/csts.jpg"
+import gasuma from "../assets/assets_collaborations/gasuma.jpg"
+import piep from "../assets/assets_collaborations/piep.jpg"
+import pertamina from "../assets/assets_collaborations/pertamina.jpg"
+import bp from "../assets/assets_collaborations/bp.jpg"
+import medco from "../assets/assets_collaborations/medco.jpg"
+
+
 
 const cards = [
   {
-    imgSrc: "image1.jpg",
+    imgSrc: bp,
     imgAlt: "Image 1",
     title: "BP",
-    description: "World marketing leader WPP is enabling the beverage giant to accelerate iteration on creative campaigns at a global scale..."
+    description: "BP is a global oil and gas company engaged in energy production, exploration, refining, and distribution. Collaboration involved providing the 'SEPP AMINE UNGU'."
   },
   {
-    imgSrc: "image2.jpg",
+    imgSrc: piep,
     imgAlt: "Image 2",
     title: "PERTAMINA EP",
-    description: "Discover how leading enterprises are leveraging our platform to transform their digital workflows..."
+    description: "PIEP is a subsidiary of Pertamina focused on upstream oil and gas exploration and production on an international scale."
   },
   {
-    imgSrc: "image3.jpg",
+    imgSrc: pertamina,
     imgAlt: "Image 3",
     title: "PERTAMINA",
-    description: "AI-powered simulations are drastically cutting down research times and enabling new therapies."
+    description: "Pertamina is an Indonesian state-owned oil and gas company that manages upstream and downstream operations."
   },
   {
-    imgSrc: "image4.jpg",
+    imgSrc: medco,
     imgAlt: "Image 4",
     title: "MEDCOENERGI",
-    description: "Learn how AI is enabling predictive maintenance, quality assurance, and efficient production lines."
+    description: "MedcoEnergi is an Indonesian energy company involved in oil, gas exploration, and power generation."
   },
   {
-    imgSrc: "image5.jpg",
-    imgAlt: "Image 5",
-    title: "CHIYODA CORPORATION",
-    description: "Explore the latest breakthroughs in self-driving technology and how they're shaping the future of mobility."
-  },
-  {
-    imgSrc: "image6.jpg",
+    imgSrc: csts,
     imgAlt: "Image 6",
     title: "CSTS",
-    description: "Learn how companies are on the way to sustainable AI with NVIDIA technologies."
+    description: "CSTS is a consortium or group of companies (often associated with engineering and construction in energy projects)."
+  },
+  {
+    imgSrc: gasuma,
+    imgAlt: "Image 6",
+    title: "Gasuma Federal Indonesia",
+    description: "Gasuma Federal Indonesia is an Indonesian company involved in the energy sector, focusing on natural gas distribution, processing, and related infrastructure development."
   }
 ];
 

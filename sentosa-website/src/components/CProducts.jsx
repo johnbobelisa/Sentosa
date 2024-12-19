@@ -2,46 +2,55 @@ import React, { useRef, useState, useEffect } from "react";
 import "./CProducts.css";
 import textContent from "../textContent.json"
 
+import pict1 from "../assets/assets_products/pict1.jpg"
+import pict2 from "../assets/assets_products/pict2.jpg"
+import pict3 from "../assets/assets_products/pict3.jpg"
+import pict4 from "../assets/assets_products/pict4.jpg"
+import pict5 from "../assets/assets_products/pict5.jpg"
+import pict6 from "../assets/assets_products/pict6.jpg"
+import pict7 from "../assets/assets_products/pict7.jpg"
+
+
 // Example cards data
 const cards = [
   {
-    imgSrc: "image1.jpg",
+    imgSrc: pict1,
     imgAlt: "Image 1",
     title: "SEPP Amine Ungu",
     description: "MDEA-based amine product designed for CO₂ and H₂S removal, with low energy requirements, reduced CAPEX, and operational efficiency."
   },
   {
-    imgSrc: "image2.jpg",
+    imgSrc: pict2,
     imgAlt: "Image 2",
     title: "SEPP Amine Putih",
     description: "Used for selective removal of impurities like H₂S and CO₂ in natural gas streams, ensuring gas purity."
   },
   {
-    imgSrc: "image3.jpg",
+    imgSrc: pict3,
     imgAlt: "Image 3",
     title: "SEPPBRINE Viscosifiers",
     description: "High-yield viscosifiers compatible with fresh water, KCl, and CaCl₂, providing reservoir-friendly solutions for workover and drilling fluids."
   },
   {
-    imgSrc: "image4.jpg",
+    imgSrc: pict4,
     imgAlt: "Image 4",
     title: "Lost Circulation Materials (LCM)",
     description: "Products like SEPSEAL and Nut Plug are designed to stop fluid invasion and stabilize formations during drilling."
   },
   {
-    imgSrc: "image5.jpg",
+    imgSrc: pict5,
     imgAlt: "Image 5",
     title: "Corrosion Inhibitors",
     description: "SEPP provides various corrosion inhibitors, including products like CORR SEPP 0333, for brine systems and drilling fluids."
   },
   {
-    imgSrc: "image6.jpg",
+    imgSrc: pict6,
     imgAlt: "Image 6",
     title: "Biocides and Oxygen Scavengers",
     description: "SEPP offers solutions such as BioSEPP and SEPP OS to inhibit bacterial growth and remove oxygen from drilling muds."
   },
   {
-    imgSrc: "image7.jpg",
+    imgSrc: pict7,
     imgAlt: "Image 7",
     title: "Defoamers and Additives",
     description: "SEPP provides defoamers (e.g., SEPP Foam, Aluminum Stearate) and other drilling additives to improve operational performance."

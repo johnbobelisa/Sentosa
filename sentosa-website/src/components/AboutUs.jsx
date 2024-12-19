@@ -18,6 +18,12 @@ const cards = [
     description: "PT. Sentosa Eka Perdana Prima (SEPP) – A chemical company with a broad product portfolio (amines, diols, polyalcohols, acids) serving oil, gas, and various industrial sectors."
   },
   {
+    imgSrc: pic4,
+    imgAlt: "Image 4",
+    title: "Formulations & Solvents",
+    description: "SEPP provides high-quality chemical products for gas treatment applications, focusing on corrosion prevention, leakage management, waste disposal, and aspects of Health, Safety, and Environment (EHS)."
+  },
+  {
     imgSrc: pic6,
     imgAlt: "Image 5",
     title: "Distribution and Manufacturing",
@@ -29,12 +35,7 @@ const cards = [
     title: "Storage Location",
     description: "SEPP ensures reliable and consistent product supply, with warehouses in Cikarang and Surabaya for efficient storage and distribution."
   },
-  {
-    imgSrc: pic4,
-    imgAlt: "Image 4",
-    title: "Formulations & Solvents",
-    description: "SEPP provides high-quality chemical products for gas treatment applications, focusing on corrosion prevention, leakage management, waste disposal, and aspects of Health, Safety, and Environment (EHS)."
-  },
+
   {
     imgSrc: pic2,
     imgAlt: "Image 2",
