@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'CustomFont';
-    src: url('../fonts/Bebas-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'CustomFont';
+  src: url('../fonts/Coolvetica Rg Cond.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
   
   
   .CProducts-outer-container {
@@ -127,13 +127,13 @@
   }
   
   .CProducts-card-title {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
   
   .CProducts-card-description {
-    font-size: 0.95rem;
+    font-size: 1.15rem;
     line-height: 1.4;
     color: #333;
   }

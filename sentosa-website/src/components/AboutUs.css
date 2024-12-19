@@ -66,7 +66,6 @@
 }
 
 
-/* About us text block with padding-left:18% for the first item */
 .about-us-content-block {
   display: inline-block;
   vertical-align: top;
@@ -127,13 +126,13 @@
 }
 
 .about-us-card-title {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .about-us-card-description {
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   line-height: 1.4;
   color: #333;
 }
@@ -143,7 +142,7 @@
   width: 50%;
   margin-left: 18%;
   margin-top: 25px;
-  height: 8px;
+  height: 5px;
   background: #ccc;
   position: relative;
   box-sizing: border-box;
@@ -151,7 +150,7 @@
 
 .about-us-progress-bar-bg {
   width: 100%;
-  height: 5px;
+  height: 8px;
   background: #ccc;
 }
 

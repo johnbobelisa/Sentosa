@@ -36,10 +36,6 @@ const NavBar = () => {
         <div className="navbar-contact">
           <a href="#Contact">Contact</a>
         </div>
-
-        <div className="Language">
-          <a>English</a>
-        </div>
       </div>
     </nav>
   );
